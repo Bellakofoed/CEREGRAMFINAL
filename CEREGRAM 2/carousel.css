@@ -1,0 +1,71 @@
+/* Reset
+------------------------------------------------------------ */
+
+/*Combined the demo css and my own css to create my webpage, I built this css into my own css code*/
+
+
+* { margin: 0; padding: 0; }
+html { overflow-y: scroll;}
+
+ol, ul { list-style: none; margin: 2%; padding-left:2%;
+	padding-right:2%;}
+ul li { margin: 0;padding-left:2%;
+	padding-right:2%;}
+
+
+	
+/* Structure */
+#wrapper {
+	width: 50%;	
+	height:500%;
+	padding-left:2%;
+	padding-right:2%;
+	} 
+
+	#main {
+	
+		float: left;
+		border:solid black;
+		padding-left:2%;
+		padding-right:2%;
+		}		
+		
+	aside {
+		float: right;
+		border:solid black;
+		padding-left:2%;
+		padding-right:2%;
+		}
+
+		
+/* Carousel */			
+#carousel {
+	float: left;
+	width: 20%;
+	height:100%;
+	padding-left:2%;
+	padding-right:2%;
+	
+	
+}
+
+/* Move the arrows on top of the image */
+.slick-arrow {
+	z-index: 2;
+	color:black;
+	background-color:black;
+	border:solid black;
+}
+
+.slick-prev {
+	left: 30px !important;
+	padding-left:5%;
+}
+
+.slick-next {
+	right: 30px !important;
+	color:black;
+	background-color:black;
+	border:solid black;
+	padding-right:5%;
+}

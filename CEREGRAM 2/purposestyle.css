@@ -1,0 +1,318 @@
+
+body{
+	background-color: #19b2b2;
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+
+}
+
+.body{
+	background-color:white;
+	margin-left:20%;
+	margin-right:20%;
+}
+
+nav{
+
+	width:100%;
+	color: black;
+	text-align:center;
+	line-height:5%;
+	border-radius: 15px 15px 0px 0px;
+}
+
+nav a, nav h3{
+
+	text-align:center;
+	text-decoration:none;
+	font-size: 15px;
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	color: black;
+	border-radius: 0px 15px 0px 15px;
+	margin-left:0.15%;
+	margin-right:0.15%;
+	background-color:white;
+	border: solid medium #19b2b2;
+}
+
+a {
+	padding-bottom: 1%;
+	padding-top:1%;
+	padding-left:3%;
+	padding-right:3%;
+	box-shadow: 4px 4px 2px grey;
+}
+
+
+nav a:hover{
+	border: solid #20ebeb;
+	background-color: #19b2b2;
+	color: black;
+	margin-top:4%;
+	padding-top:1.25%;
+	padding-bottom:1.25%;
+	
+}
+
+h2{
+	text-align:center;
+	text-decoration:none;
+	font-size: 10px;
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	color: black;
+	border-radius: 0px 15px 0px 15px;
+	padding:5%;
+	background-color:white;
+	border: solid thin #19b2b2;
+	box-shadow: 4px 4px 2px grey;
+}
+
+h2:hover{
+	color:black;
+	background-color: #20ebeb;
+}
+
+
+.navbar{
+	margin-top:0%;
+	margin-bottom:2.5%;
+	position:absolute;
+}
+
+header {
+	text-align:center;
+
+}
+
+#brain{
+	height: 70%;
+	width:67%;
+	border: solid #1a8585;
+	border-radius: 0px 30px 30px 30px;
+	padding-top:6%;
+	padding-left:5%;
+	padding-right:5%;
+	float:left;	
+	margin-left:4%;	
+	text-align:center;
+	margin-bottom:20%;
+	
+}
+
+#logo{
+
+	text-align:center;
+	height: 4%;
+    width: 4%;
+	position:relative;
+}
+
+#title {
+	
+	margin-top: 10%;
+	text-align:center;
+	margin-left:2%;
+	height: 8%;
+    width: 15%;
+}
+
+#purpose{
+	
+	margin-top: 5%;
+	float:left;
+	margin-left:25%;
+	margin-right:10%;
+	height: 8%;
+    width: 30%;
+	
+}
+
+.explain{
+	text-align:left;
+	padding-left:5%;
+	margin-right:20%;
+	margin-left:13%;
+	border-top: solid #1a8585;
+	border-left: solid #1a8585;
+	border-radius: 0px 30px 30px 30px;
+	padding:3%;
+}
+
+.photos{
+	border-top: solid #1a8585;
+	border-left: solid #1a8585;
+	border-radius: 0px 30px 30px 30px;
+	width:20%;
+	height:10%;
+	}
+
+
+#intro{
+	margin-left:35%;
+	border: solid #1a8585;
+	border-radius: 15px 0px 15px 15px;
+	padding: 3%;
+	font-size:20px;
+}
+
+.language{
+	float:right;
+}
+
+p {
+	text-shadow:3px 4px 3px #c4d3e4 ;
+	font-size:120%;;
+
+}
+
+h4{
+	font-size:70%;
+}
+
+
+h3 {
+	text-align:left;	
+	padding-right:2%;
+	padding-left:4%;
+	text-shadow:3px 4px 3px #c4d3e4 ;
+	border: solid #19b2b2;
+	border-radius: 15px 0px 15px 0px;
+}
+
+h5{
+	text-align:center;	
+	padding-right:2%;
+	padding-left:2%;
+	text-shadow:3px 4px 3px #c4d3e4 ;
+	border-top: solid #1a8585;
+	border-bottom: solid #1a8585;
+	font-size:200%;
+	margin-top:8%;
+	margin-left:30%;
+	Margin-right:30%;
+	}
+
+.image{
+	background-color:white;
+	margin-left:25%;
+	margin-right:25%;
+	margin-top:5%;
+	border: solid #1a8585;
+	border-radius: 15px 0px 15px 0px;
+	padding:4%;
+	
+	}
+	
+.image: hover{
+	background-image:url(../Screen%20Shot%202016-09-12%20at%201.58.18%20PM.png);
+	}
+
+
+footer{
+	text-align:center;
+	background-color:white;
+	border-top: solid #19b2b2;
+	margin-top:5%;	
+}
+
+
+
+/* Dropdown Button with help from http://www.w3schools.com/howto/howto_css_dropdown.asp*/
+.dropbtn {
+    background-color: #19b2b2;
+    color: black;
+    padding: 16px;
+    font-size: 20%;
+    cursor: pointer;
+	border:none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+	
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+   
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #19b2b2}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #19b2b2;
+}
+
+
+
+/* Simple grid from Walter's template */
+.g-row{
+	width: 100%;
+	overflow: hidden;
+}
+
+.g-row img{
+	width: 100%;
+	overflow: hidden;
+}
+
+
+.g-55{
+	width: 55%;
+	float: right;
+}
+
+.g-40{
+	width: 40%;
+	float: left;
+	padding:1.5%;
+}
+
+.g-70{
+	width: 70%;
+	float: right;
+}
+
+.g-50{
+	width: 50%;
+	float:left;
+	border: solid #19b2b2;
+	padding:3%;
+}
+
+
+.g-50h{
+	width:50%;
+	float:left;
+	height:50%;	
+	border: solid #19b2b2;
+	border-radius: 15px 0px 15px 0px;
+}
+
+.show{
+	border: 1px solid blue;
+	padding: 2px;
+}
+
+.padded{
+	padding: 20px; 
+}
